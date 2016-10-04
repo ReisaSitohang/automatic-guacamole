@@ -3,9 +3,9 @@
 
 <head>
     <title>Reisa's World</title>
-    <link rel="shortcut icon" href="./catIcon.ico">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./Includes/style.css">
+    <link href="./slider/jquery.bxslider.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -40,10 +40,10 @@
     <section id="about" class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6 col-md-4">
-                    <img id="AboutMePic" src="./includes/Images/Reisa.JPG" class="img-responsive" alt="Responsive image">
+                <div class="col-md-5">
+                    <img id="AboutMePic" src="./includes/Images/Reisa.JPG">
                 </div>
-                <div class="col-xs-12 col-md-8">
+                <div class="col-md-7">
                     <h2>About</h2>
                     <p class="AboutMeText">
                         Born and raised in Amsterdam with Indonesian roots.
@@ -59,6 +59,12 @@
         </div>
     </section>
     <section id="projects" class="projects-section">
+      <ul class="bxslider">
+        <li>
+          <iframe width="1066" height="600" src="https://www.youtube.com/embed/d2jRtZjKrpQ?showinfo=0" frameborder="0" allowfullscreen></iframe><p class="slider1">Short dance project</p>
+        </li>
+        <li><p class="slider2">More<br><br>Coming<br><br>Soon</p></li>
+      </ul>
     </section>
 
     <section id="contact" class="contact-section">
@@ -90,11 +96,12 @@
         </div>
     </section>
 
-    <script src="./jquery-3.1.1.min.js"></script>
+    <script src="./includes/jquery-3.1.1.min.js"></script>
     <script src="./Includes/main.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script src="./bootstrap/js/jquery.easing.min.js"></script>
     <script src="./bootstrap/js/scrolling-nav.js"></script>
+    <script src="./slider/jquery.bxslider.min.js"></script>
 </body>
 
 </html>
