@@ -1,0 +1,74 @@
+body {
+	background: white;
+}
+
+@font-face {
+	font-family: "Cute Font";
+    src: url('./Fonts/CuteFont.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Great Vibes";
+    src: url('./Fonts/GV.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url('./Fonts/LB.ttf') format('truetype');
+}
+
+h1 { 
+	color: black; 
+	font-family: "Cute Font", Arial; 
+	font-size: 50px; 
+	margin-bottom: 10px;
+    margin-top: 5px;
+	text-align: center;
+}
+
+.AboutMoi {
+    background: blanchedalmond;
+}
+
+h2 { color: #d54d7b; font-family: "Great Vibes", cursive; font-size: 110px; line-height: 152px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 1px 1px 0px #999999, 1px -1px 0px #6B6B6B; }
+
+
+p { color: #7a7c7f; font-size: 26px; font-family: "Libre Baskerville", serif; line-height: 28px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
+
+p.byline { font-style: italic; color: #B6B6B6; font-size: 24px; margin-top: 20px; text-align: center; text-shadow: 0 1px 1px #fff; }
+
+.col-md-8 {
+    background-color: blanchedalmond;
+}
+
+#navBar ul {
+	text-align: center;
+	letter-spacing:6pt;
+	word-spacing:2pt;
+	font-family: Helvetica, Arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+#navBar li {
+    float: left;
+}
+
+#navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navBar li a.active {
+    color: #ffb3d9;
+    text-shadow: 0 0 0.2em #ffb3d9, 0 0 0.2em #ffb3d9;
+}
+
+#navBar li a:hover:not(.active) {
+    background-color: #ffb3d9;
+}
+
